@@ -398,30 +398,14 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  /* background: url("../img/hero-bg.jpg") top center; */
-  /* background-size: cover; */
-  /* position: relative; */
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradientBG 10s ease infinite;
-}
-
-@keyframes gradientBG {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  background: url("../img/hero-bg.jpg") top center;
+  background-size: cover;
+  position: relative;
 }
 
 #hero:before {
   content: "";
-  /* background: rgba(0, 0, 0, 0.339); */
-  background: linear-gradient(180deg, #ffffff00, #00000075, #000000ca);
+  background: rgba(0, 0, 0, 0.6);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -431,7 +415,7 @@ h6 {
 
 #hero .container {
   position: relative;
-  /* padding-top: 74px; */
+  padding-top: 74px;
   text-align: center;
 }
 
@@ -511,52 +495,6 @@ h6 {
     line-height: 24px;
   }
 }
-
-
-
-
-
-/* exxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-.container1 {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradientBG 15s ease infinite;
-}
-
-@keyframes gradientBG {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
-
-/* exxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*--------------------------------------------------------------
